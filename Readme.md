@@ -46,6 +46,8 @@ parser.add_argument('-m', '--modelname',  default="")
     
     It will generate `xxx_pull_info_X.txt` and `xxx_pull_info_y.txt` files which include all data needed to build graph. 
     
+    Note: Modify the `access_token` in line 23 of the git.py.
+    
 + getGraph_train_data.py.py
     
     `python getGraph_train_data.py N`
